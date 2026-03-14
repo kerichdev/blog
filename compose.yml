@@ -1,0 +1,12 @@
+services:
+  astro-app:
+    build: .
+    restart: unless-stopped
+    security_opt:
+      - no-new-privileges:true
+    read_only: true
+    ports:
+      - 127.0.0.1:19480:19480
+    tmpfs:
+      - /config
+      - /data
