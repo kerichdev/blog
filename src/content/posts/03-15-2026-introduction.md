@@ -1,7 +1,7 @@
 ---
 title: Behold, a blog!
 published: 2026-03-15
-description: 'Talking in chats ain\'t enough, gimme a blog.'
+description: 'Talking in chats aint enough, gimme a blog.'
 image: ''
 tags: []
 category: 'Meta'
